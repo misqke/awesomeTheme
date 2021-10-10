@@ -1,0 +1,110 @@
+{
+	"name": "awesomeness",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#000",
+		"editor.foreground": "#eeffff",
+		"editor.selectionBackground": "#8d949471",
+		"editorLineNumber.activeForeground": "#63f32a",
+		"menu.background": "#000",
+		"statusBar.background": "#000",
+		"activityBar.background": "#000",
+		"sideBar.background": "#000"
+	},
+	"tokenColors": [
+		{
+			"name": "Storage",
+			"scope": [
+				"storage",
+				"support.constant.property-value",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#747474",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variables",
+			"scope": [
+				"variable",
+				"support.type.property-name"
+				
+			],
+			"settings": {
+				"foreground": "#0e91dd"
+			}
+		},
+		{
+			"name": "Functions",
+			"scope": [
+				"entity.name.function",
+				"support.variable.property",
+				"entity.other.attribute-name"
+				
+			],
+			"settings": {
+				"foreground": "#67d6e9"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant",
+				"entity.name.tag",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "#8208a7"
+			}
+		},
+		{
+			"name": "Control",
+			"scope": [
+				"keyword.control",
+				"text.html",
+				"meta.jsx",
+				"meta.object-literal.key"
+			],
+			"settings": {
+				"foreground": "#5485a0"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation",
+				"keyword.operator",
+				"storage.type.function.arrow.js",
+				"punctuation.separator.key-value"
+				
+			],
+			"settings": {
+				"foreground": "#63f32a"
+			}
+		},
+		{
+			"name": "Punctuation2",
+			"scope": [
+				"meta.brace",
+				"punctuation.definition.block",
+				"punctuation.definition.binding-pattern",
+				"punctuation.definition.parameters",
+				
+			],
+			"settings": {
+				"foreground": "#d7da19"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string"
+				
+			],
+			"settings": {
+				"foreground": "#b2b3b3"
+			}
+		},
+	]
+}
